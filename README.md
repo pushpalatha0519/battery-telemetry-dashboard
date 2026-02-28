@@ -1,16 +1,27 @@
-# React + Vite
+# Battery Telemetry Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Company Name:** iTarang Technologies Pvt Ltd  
+**Role:** Full Stack Developer  
 
-Currently, two official plugins are available:
+## Overview
+A web-based dashboard to visualize real-time IoT battery telemetry data for lithium-ion batteries used in e-rickshaws. It helps dealers and operations managers quickly understand battery health and performance.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Status Overview cards: SoC, SoH, Voltage, Current, Charge Cycles, Temperature
+- Conditional alerts (e.g., low battery)
+- Time-series charts for SoC, Voltage, Temperature
+- Responsive design for desktop and tablet
+- Built with React, TailwindCSS, Recharts, and Vite
 
-## React Compiler
+## Tech Stack
+- **Frontend:** React.js, TailwindCSS  
+- **Charts:** Recharts  
+- **Build Tool:** Vite  
+- **Deployment:** Vercel  
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Installation (for reference)
+```bash
+git clone https://github.com/pushpalatha0519/battery-telemetry-dashboard.git
+cd battery-telemetry-dashboard
+npm install
+npm run dev
